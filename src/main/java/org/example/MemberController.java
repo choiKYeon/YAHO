@@ -94,15 +94,10 @@ public class MemberController {
         System.out.println("회원가입이 완료되었습니다. 로그인을 진행해주세요.");
     }
     public void logout(){
+
         if (checkedmembers != null){
             checkedmembers = null;
-            System.out.println("로그아웃 되었습니다.");
-            return;
         }
-        if (checkedmembers == null){
-            System.out.println("로그인을 먼저 진행해주세요.");
-            new App().run();
-        }
-
+        System.out.println("로그아웃 되었습니다.");
     }
 }
