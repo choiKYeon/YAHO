@@ -15,8 +15,7 @@ public class App {
 
             if (command.equals("종료")){
                 System.out.println("== 프로그램을 종료합니다. ==");
-                Container.close();
-                break;
+                return;
             } else if (command.equals("로그인")) {
                 memberController.login();
             } else if (command.equals("회원가입")) {
