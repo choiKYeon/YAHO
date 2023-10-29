@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.member.controller.MemberController;
+
 public class App {
     MemberController memberController = new MemberController();
     public void run(){
