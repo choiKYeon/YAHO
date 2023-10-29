@@ -4,6 +4,7 @@ public class MoiuntainController {
     public void gyeonggiDo() {
         while (true) {
             System.out.println("\n== 경기도 지역의 산을 선택해주세요. ==");
+            System.out.print("입력 :");
             String commandMountain = Container.getSc().nextLine().trim();
 
             switch (commandMountain) {
@@ -25,6 +26,7 @@ public class MoiuntainController {
     public void gangwonDo() {
         while (true) {
             System.out.println("\n== 강원도 지역의 산을 선택해주세요. ==");
+            System.out.print("입력 :");
             String commandMountain = Container.getSc().nextLine().trim();
 
             switch (commandMountain) {
@@ -49,6 +51,7 @@ public class MoiuntainController {
     public void chungcheongDo() {
         while (true) {
             System.out.println("\n== 충청도 지역의 산을 선택해주세요. ==");
+            System.out.print("입력 :");
             String commandMountain = Container.getSc().nextLine().trim();
 
             switch (commandMountain) {
@@ -72,6 +75,7 @@ public class MoiuntainController {
     public void kyongsangDo() {
         while (true) {
             System.out.println("\n== 경상도 지역의 산을 선택해주세요. ==");
+            System.out.print("입력 :");
             String commandMountain = Container.getSc().nextLine().trim();
 
             switch (commandMountain) {
@@ -95,6 +99,7 @@ public class MoiuntainController {
     public void jeollaDo() {
         while (true) {
             System.out.println("\n== 전라도 지역의 산을 선택해주세요. ==");
+            System.out.print("입력 :");
             String commandMountain = Container.getSc().nextLine().trim();
 
             switch (commandMountain) {
@@ -118,6 +123,7 @@ public class MoiuntainController {
     public void jejuDo() {
         while (true) {
             System.out.println("\n== 제주도 지역의 산을 선택해주세요. ==");
+            System.out.print("입력 :");
             String commandMountain = Container.getSc().nextLine().trim();
 
             switch (commandMountain) {
